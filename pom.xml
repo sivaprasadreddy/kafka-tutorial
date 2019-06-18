@@ -7,14 +7,14 @@
     <groupId>com.sivalabs</groupId>
     <artifactId>kafka-tutorial</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <modules>
         <module>kafka-java-sample</module>
         <module>spring-kafka-sample</module>
         <module>spring-boot-kafka-sample</module>
         <module>spring-boot-multiple-producers-consumers</module>
+        <module>spring-cloud-stream-producer</module>
+        <module>spring-cloud-stream-consumer</module>
     </modules>
-
-    <packaging>pom</packaging>
-
 
 </project>
